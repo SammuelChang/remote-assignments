@@ -1,0 +1,175 @@
+header,
+ul,
+main,
+.container,
+aside {
+    display: flex;
+}
+
+header {
+    background-color: rgb(234, 234, 234);
+    height: 50px;
+}
+
+.altMenu {
+    width: 40px;
+    text-align: right;
+}
+
+h1 {
+    vertical-align: middle;
+    margin: 5px 30px;
+}
+
+.welcome {
+    background-color: rgb(183, 202, 222);
+    text-align: center;
+    height: 200px;
+}
+
+h2 {
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+main {
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.column {
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.partOne {
+    background-color: rgb(110, 124, 144);
+}
+
+.partTwo {
+    background-color: rgb(110, 124, 144);
+}
+
+button {
+    background-color: white;
+    height: 50px;
+}
+
+@media (min-width: 1200px) {
+    .altMenu {
+        display: none;
+    }
+    .menu {
+        width: 90%;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+    }
+    button {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    .altMenu {
+        display: none;
+    }
+    nav {
+        width: 90%;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+        flex: 1 0 40%;
+    }
+    button {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .altMenu {
+        display: none;
+    }
+    .menu {
+        width: 90%;
+    }
+    h1 {
+        vertical-align: middle;
+        margin: 5px 10px;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+        flex: 1 0 40%;
+    }
+    button {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 499px) {
+    .menu {
+        width: 90%;
+    }
+    .menuText {
+        display: none;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+        flex: 1 0 40%;
+    }
+    button {
+        margin: 0 auto;
+    }
+}
