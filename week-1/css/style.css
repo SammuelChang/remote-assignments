@@ -1,7 +1,8 @@
 header,
 ul,
 main,
-.container,
+.container1,
+.container2,
 aside {
     display: flex;
 }
@@ -96,6 +97,9 @@ button {
     nav {
         width: 90%;
     }
+    .menu {
+        width: 90%;
+    }
     ul {
         justify-content: flex-end;
     }
@@ -103,7 +107,7 @@ button {
         flex-direction: column;
     }
     .container {
-        width: 80%;
+        width: 95%;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -117,11 +121,11 @@ button {
 }
 
 @media (min-width: 500px) and (max-width: 799px) {
-    .altMenu {
-        display: none;
-    }
     .menu {
         width: 90%;
+    }
+    .menuText {
+        display: none;
     }
     h1 {
         vertical-align: middle;
@@ -134,7 +138,7 @@ button {
         flex-direction: column;
     }
     .container {
-        width: 80%;
+        width: 95%;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -148,6 +152,7 @@ button {
 }
 
 @media (max-width: 499px) {
+
     .menu {
         width: 90%;
     }
@@ -160,14 +165,17 @@ button {
     main {
         flex-direction: column;
     }
-    .container {
-        width: 80%;
-        flex-wrap: wrap;
+    .container{
+        width: 95%;
+    }
+    .container1,.container2 {
+        flex-flow: row wrap;
         justify-content: center;
     }
     .column {
-        margin: 5px;
-        flex: 1 0 40%;
+        margin: 5px 10%;
+        width: 100%;
+        
     }
     button {
         margin: 0 auto;
