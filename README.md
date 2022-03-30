@@ -1,13 +1,13 @@
 # appWorkSchool remote assignments
 
 week-1
-  - assignment1: github create
-  - assignment2 url: https://sammuelchang.github.io/remote-assignments/week-1/
-  - assignment3: optional and not done
+  - assignment1: Github Create
+  - assignment2: https://sammuelchang.github.io/remote-assignments/week-1/
+  - assignment3: Google Developer Practice (Optional and Not Done)
 
 week-2
-  - assignment1: javascript practice
-  - assignment2: javascript practice
-  - assignment3: javascript practice
-  - assignment4 url: 
-  - assignment5: optional and done
+  - assignment1: Javascript Practice
+  - assignment2: Javascript Practice
+  - assignment3: Javascript Practice
+  - assignment4: Url
+  - assignment5: Javascript Practice (Optional and Done)
