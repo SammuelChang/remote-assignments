@@ -7,3 +7,7 @@ for ( let i = 0; i < numbers.length; i++){
     }
 return maxNumber;
 }
+
+
+max([1, 2, 4, 5]);
+max([5, 2, 7, 1, 6]);
