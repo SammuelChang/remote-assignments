@@ -9,5 +9,5 @@ week-2
   - assignment①: 😆 Javascript Practice
   - assignment②: 😆 Javascript Practice
   - assignment③: 😆 Javascript Practice
-  - assignment④: 😆 https://sammuelchang.github.io/remote-assignments/week-2/
+  - assignment④: 😆 https://sammuelchang.github.io/remote-assignments/week-2/assignment4/
   - assignment⑤: 😆 Javascript Practice (Optional and Done)
