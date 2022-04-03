@@ -1,10 +1,14 @@
+//2022-04-03 將迴圈內曾加入break條件
+
 function twoSum(nums, target){
     // your code here
     let index = [];
     for ( let i = 0; i < nums.length; i++){
         for ( let j = 0; j < nums.length; j++){
-            if ( arr[i] !== arr[j] && (arr[i] + arr[j]) === target && i < j){
-                index = [i,j]
+            if ( nums[i] !== nums[j] && (nums[i] + nums[j]) === target && i < j){
+                index = [i,j];
+                break;
+                console.log(`${i},${j}`); //測試有無正確break
             }
         }
     }
