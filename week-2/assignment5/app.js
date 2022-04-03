@@ -1,4 +1,4 @@
-//2022-04-03 將迴圈內曾加入break條件
+//2022-04-03 將迴圈內層加入break條件
 
 function twoSum(nums, target){
     // your code here
