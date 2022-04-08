@@ -27,10 +27,6 @@ app.get('/', (req, res) => {
 
 
 // Assignment 2: Build Backend API for Front-End
-// 1. When a user enters http://localhost:3000/getData in a browser’s address bar, show the "Lack of Parameter" message in the page.
-// 2. When a user enters http://localhost:3000/getData?number=xyz in a browser’s address bar, show the "Wrong Parameter" message in the page.
-// 3. When a user enters http://localhost:3000/getData?number=5, they should get the result of 1+2+....+5 in the page.
-// 4. Generally speaking, when a user enters http://localhost:3000/getData?number=正整 數, they can get result of 1+2+....+正整數 in the page.
 function printNumber(n) {
     let result = "";
     for (let i = 1; i <= n; i++) {
