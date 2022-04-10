@@ -17,9 +17,9 @@ function loadDoc(number) {
         let str = xhr.responseText;
         if (xhr.readyState === 4) {
             if (+number) { //+號轉型為number，符合時表示輸入的是數字，可以呈現算式與結果
-                document.getElementById('test').innerHTML = `${str} <br> = ${eval(str)}`;
+                document.getElementById('test').innerHTML = str;
             } else {
-                document.getElementById('test').innerHTML = `${str}`;
+                document.getElementById('test').innerHTML = str;
             }
         }
     }
