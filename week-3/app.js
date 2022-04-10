@@ -43,7 +43,8 @@ app.get('/getData', (req, res) => {
     var number = Number(req.query.number);
     // console.log(number);
     if (Math.floor(number) === number && number >= 1) {
-        res.send(printNumber(number));
+        let sum = eval(printNumber(number));
+        res.send(`Your input number get result of ${sum}`);
     } else if (para) {
         res.send(`Wrong Parameter`);
     } else {
