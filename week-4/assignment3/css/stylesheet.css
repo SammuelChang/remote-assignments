@@ -1,0 +1,261 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+header,
+ul,
+main,
+.container1,
+.container2,
+aside,
+footer {
+    display: flex;
+}
+
+header {
+    background-color: rgb(234, 234, 234);
+    height: 50px;
+}
+
+.topTitle{
+    margin:0 auto;
+}
+
+.altMenu {
+    width: 40px;
+    text-align: right;
+    transition: background-color 0.5s;
+}
+
+.altMenu:hover {
+    background-color: lightgray;
+}
+
+.show{
+    display:block;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    vertical-align: middle;
+    margin: 5px 30px;
+}
+
+.welcome {
+    background-color: rgb(183, 202, 222);
+    text-align: center;
+    height: 200px;
+}
+
+h2 {
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+main {
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.secondContainer {
+    /* margin: 0 auto; */
+}
+
+.actionContainer{
+    position: relative;
+    padding: 5rem;
+}
+.actionCenter{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.column {
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.partOne {
+    background-color: rgb(110, 124, 144);
+}
+
+.partTwo {
+    background-color: rgb(110, 124, 144);
+}
+
+aside {
+    display: block;
+}
+
+
+
+aside ul {
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 1rem 8rem 0 0.1rem;
+}
+
+aside ul li {
+    padding: 1rem;
+}
+
+aside img {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+}
+
+button {
+    background-color: white;
+    padding: 1rem;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+footer {
+    height: 10vh;
+}
+
+
+@media (min-width: 1200px) {
+    .altMenu {
+        display: none;
+    }
+    .menu {
+        width: 90%;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+    }
+    button {
+        margin: 1rem auto 1rem auto;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    .altMenu {
+        display: none;
+    }
+    nav {
+        width: 90%;
+    }
+    .menu {
+        width: 90%;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+        flex: 1 0 40%;
+    }
+    button {
+        margin: 1rem auto 1rem auto;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .menu {
+        width: 90%;
+    }
+    .menuText {
+        display: none;
+    }
+    h1 {
+        vertical-align: middle;
+        margin: 5px 10px;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px;
+        flex: 1 0 40%;
+    }
+    button {
+        margin: 1rem auto 1rem auto;
+    }
+}
+
+@media (max-width: 499px) {
+    .menu {
+        width: 90%;
+    }
+    .menuText {
+        display: none;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    main {
+        flex-direction: column;
+    }
+    .container {
+        width: 95%;
+    }
+    .container1,
+    .container2 {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .column {
+        margin: 5px 10%;
+        width: 100%;
+    }
+    button {
+        margin: 1rem auto 1rem auto;
+    }
+}
