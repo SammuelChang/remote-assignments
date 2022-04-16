@@ -22,5 +22,4 @@ week-3
 week-4
   - assignment①: 😆 Callback Practice
   - assignment②: 🧐 Callback and AJAX Practice
-  - assignment③: 😫 Re-build Webpage in React
-                     https://sammuelchang.github.io/remote-assignments/week-4/assignment3/
+  - assignment③: 😫 Rebuild in React https://sammuelchang.github.io/remote-assignments/week-4/assignment3/
