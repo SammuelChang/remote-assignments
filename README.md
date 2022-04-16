@@ -18,3 +18,9 @@ week-3
   - assignment②: 😆 Build API
   - assignment③: 😳 AJAX and API Connected
   - assignment④: 😳 Cookie Use and Response (Advanced Optional and Done)
+
+week-4
+  - assignment①: 😆 Callback Practice
+  - assignment②: 🧐 Callback and AJAX Practice
+  - assignment③: 😫 Re-build Webpage in React
+                     https://sammuelchang.github.io/remote-assignments/week-4/assignment3/
