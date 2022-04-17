@@ -1,4 +1,4 @@
-# appWorkSchool Remote Assignments
+# appWorkSchool Remote Assignments（Frontend）
 
 week-1
   - assignment①: 😆 Github Create
