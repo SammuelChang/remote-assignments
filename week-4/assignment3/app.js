@@ -140,7 +140,7 @@ class Change extends React.Component{
 
     render(){
         return (
-            <h1 onClick={this.changeText.bind(this)}>{this.state.title}</h1>
+            <h1 onClick={() => this.changeText()}>{this.state.title}</h1>
         );
     }
 }
@@ -149,7 +149,7 @@ class MyApp extends React.Component{
     constructor(props) {
         super(props)
     
-        this.handler = this.handler.bind(this)
+        // this.handler = this.handler.bind(this)
         this.state = {
             showMenu: false,
             showBox: false
